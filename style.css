@@ -1,0 +1,66 @@
+@import url(http://fonts.googleapis.com/css?family=Homemade+Apple|Sacramento);
+.quote{
+  margin-top: 7%;
+}
+
+.bg-quote{
+  padding: 5px 50px 40px 50px;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 10px;
+  z-index: 0
+    
+-webkit-transition:height 1.2s ease;
+-moz-transition:height 1.2s ease;
+-o-transition:height 1.2s ease;
+transition:height 1.2s ease;
+  
+}
+.comillas{
+  position: absolute;
+ // color: #e6f2ff;
+  font-size: 50rem;
+  top: 0%;
+  right: 50%;
+  z-index: 1;
+  font-family: 'Homemade Apple';
+  
+}
+
+button{
+  color: white;
+}
+
+.citeColor{
+  color: gray;
+  padding: 5px 0 0 0;
+}
+
+.tweet-next{
+  padding: 30px 0px 0px 0px;
+}
+.quote-text{
+  padding-top: 20px;
+  font-family: 'Sacramento';
+  font-size: 5rem;
+}
+
+.bg-color{
+-webkit-transition:background 1.2s ease;
+-moz-transition:background 1.2s ease;
+-o-transition:background 1.2s ease;
+transition:background 1.2s ease;
+}
+
+.quote-text, .comillas{
+-webkit-transition:color 1.2s ease;
+-moz-transition:color 1.2s ease;
+-o-transition:color 1.2s ease;
+transition:color 1.2s ease;
+}
+a{
+ color: white;
+}
+a:active{
+  color:white;
+}
